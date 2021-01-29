@@ -1,0 +1,9 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "vuepress build && git add -A && git commit -m 'bot commit' && git push --force"
+  }
+}
