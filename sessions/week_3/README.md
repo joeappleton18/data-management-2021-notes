@@ -18,11 +18,23 @@ f you are using windows, now is a good time to add the MongoDB folder as an envi
 -  You will need to download [MongoDB Tools](https://www.mongodb.com/try/download/database-tools)
   -   Extract the zip file and move the contents to `C:\Program Files\MongoDB\Server\4.4\bin\`
 
-Once you've completed the above, you should be able to run the Mongo command-line tools (e.g. mongoimport) without the need to append the absolute path to the command.
+## Importing Data
+
+We've already looked at importing data into MongoDB programatically using node. However, you can also use the MongoDB importer to populate a collection.
+
+The mongoimport command line tool is distributed with MongoDB and allows us to import data into our local MongoDB instance. The command looks like this:
+
+
+```js
+mongoimport --db=wine  --collection=tastings --file="wine.json" --jsonArray
+```
+The above command is fairly self explanatory; however, it is worth noting, if the database, "wine", does not exist it will automatically be created for us. Furthermore, the --jsonArray flag is needed as the the wine.json file contains and array of JSON elements. Finally, notice how we have used a singular name for the database and a plural for the collection - this is a common naming convention.
 
 ## Task 1 - MongoDB Data Importing
 
 - [Download the wine.json file and insert the data into a collection called "tastings" that lives in a database called "wine". You can grab the data by visiting this link and saving the page on your local computer](https://github.com/joeappleton18/advanced-databases-starter-project/raw/master/wine.json)
+
+- Import
 
 - If all has gone well you, should see a message along the lines of " 129971 document(s) imported successfully. 0 document(s) failed to import."
 
