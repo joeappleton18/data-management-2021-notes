@@ -65,7 +65,14 @@ Currently each document in our "tastings" collection looks, along the lines of, 
 
 ## Read
 
-To get you all started, let's explore some basic read operations that we might want to run on our collection. Access the MongoDB command line, and run the following:
+To get you all started, let's explore some basic read operations that we might want to run on our collection. 
+
+
+
+Access the MongoDB command line, and run the following:
+```js
+use wine
+```
 
 ```js
 db.tastings.find({});
