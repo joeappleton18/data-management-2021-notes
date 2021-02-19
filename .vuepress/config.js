@@ -20,6 +20,11 @@ module.exports = {
                 collapsable: true,
                 children: ["/sessions/week_2/"],
             },
+            {
+                title: "Week 3 - MongoDB Queries",
+                collapsable: true,
+                children: ["/sessions/week_3/"],
+            }
         ],
     },
 };
