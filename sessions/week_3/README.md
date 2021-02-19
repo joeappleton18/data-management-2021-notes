@@ -34,8 +34,6 @@ The above command is fairly self explanatory; however, it is worth noting, if th
 
 - [Download the wine.json file and insert the data into a collection called "tastings" that lives in a database called "wine". You can grab the data by visiting this link and saving the page on your local computer](https://github.com/joeappleton18/advanced-databases-starter-project/raw/master/wine.json)
 
-- Import
-
 - If all has gone well you, should see a message along the lines of " 129971 document(s) imported successfully. 0 document(s) failed to import."
 
 - While it is useful to directly import data using MongoDB, some people have had a few issues. [If you think the import process has taken too long then you can clone and use a data importer that I have created for you](https://github.com/joeappleton18/wine-data-importer). 
