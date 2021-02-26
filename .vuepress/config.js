@@ -24,10 +24,32 @@ module.exports = {
                 title: "Week 3 - MongoDB Queries",
                 collapsable: true,
                 children: ["/sessions/week_3/"],
-            }
+            },
+
+            {
+                title: "Week 4  - Completing the MVC stack",
+                collapsable: true,
+                children: ["/sessions/week_4/"],
+            },
+
+            // {
+            //     title: "Week 5 - Getting to Grips With the Assessment",
+            //     collapsable: true,
+            //     children: ["/sessions/week_5/"],
+            // },
+
+
+
+            // {
+            //     title: "Week 7 - Data Modeling and Relationships",
+            //     collapsable: true,
+            //     children: ["/sessions/week_7/"],
+            // },
+
+
         ],
     },
 };
 
 
-/// 
+/// Week 5 (Getting to Grips With the Assessment)
