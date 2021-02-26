@@ -11,7 +11,7 @@ I am very excited about this week as we will be tying together everything we hav
 ## The MCV Stack  
 
 
-![](/images/mvc.png)
+![](https://joeappleton18.github.io/data-management-2021-notes/images/mvc.png)
 >> The classic MVC stack
 
 Above is a diagram of the architecture that we are constructing. The Model-View-Controller (MVC) separates and application in two three logical components: the model, view and controller. 
