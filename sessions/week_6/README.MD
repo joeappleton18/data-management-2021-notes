@@ -1,2 +1,3 @@
-# Week 6 (Thinking About Updating Data)
-## Sub section 1
+# Week 6
+
+For some reason this was not working
