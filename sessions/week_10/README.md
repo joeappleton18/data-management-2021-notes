@@ -171,6 +171,7 @@ That was simple, we've completed step 1. Now, we just need to create some API ro
 - Create the file `controllers/api/tasting.js` it should contain the following code:
 
 ```JavaScript
+const Tasting = require('../../models/Tasting');
 
 exports.list =  async (req,res) => {
     
@@ -218,7 +219,7 @@ Use the notes above to set up a functional `/api/search-tastings` route.
 
 ## Consuming our API
 
-We are nearly there, we just need to link the client side, `public/scripts/search-tasting.js`'s code to our api. This is not a web unit, so I am going to give you a whistle-stop tour of front end development. If you enjoy it, then you can take things further in the assessment. Also, you may want to consider taking my contemporary web application unit next year (it's a great unit 😉). 
+We are nearly there, we just need to link the client side, `public/scripts/search-tasting.js`'s code to our api. This is not a web unit, so I am going to give you a whistle-stop tour of front end development. If you enjoy it, then you can take things further in the assessment. <!-- Also, you may want to consider taking my contemporary web application unit next year (it's a great unit 😉). -->
 
 First, take a look at `views/search-tastings.ejs`, notice that we have a empty div:
 
