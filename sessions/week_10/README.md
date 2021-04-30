@@ -25,7 +25,7 @@ Last week](/week-9), in deploying our application, concluded our exploration of 
 
 ## Our Current Client Server Model
 
-<img src=/images/entire-request.png />
+<img src=https://joeappleton18.github.io/data-management-2021-notes/images/entire-request.png />
 
 >> The architecture of our web application
 
