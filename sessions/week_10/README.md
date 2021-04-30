@@ -425,3 +425,9 @@ Can you add a delete button to each saved tastings. The user should be able to c
 ## Task 6 - Is Authenticated API
 
 Can you create a user API route that the front-end could use to determine if a user is authenticated (e.g., `controllers/api/user.js`). Next, use this information to hide the save button if the user is not logged-in.
+
+
+## Solutions 
+
+We have now completed the course - well done! [Should you need the solutions for this week you can find them in the repository by clicking this link](https://github.com/joeappleton18/db-starter-project/tree/week-10-solutions). 
+
